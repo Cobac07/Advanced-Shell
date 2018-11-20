@@ -1,0 +1,347 @@
+html, body{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+.container-fluid{
+	background-image: linear-gradient(#5ac5b4,#2b906b,#09a52a);
+	box-shadow: 0 0 25px white;
+}
+.header{
+	display: inline-block;
+	position: fixed;
+	background-color: #2f6153;
+	overflow: hidden;
+	padding: 0px;
+	width: 100%;
+	z-index: 2;
+}
+.header a:link, a:hover, a:visited, a:active{
+	text-decoration: none;
+}
+.header a{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	margin-left:5px;
+	text-decoration: none;
+	border-radius: 4px;
+	font-family: Verdana;
+	font-size: 15px;
+}
+.header a.logo{
+	font-family: Lucida Sans Unicode;
+	font-size: 25px;
+	font-weight: bold;
+	color:#88ffc4;
+}
+.header a.logo:hover{
+	color:white;
+}
+
+.lang-en-active{
+	float: right;
+	cursor: pointer;
+	text-align: center;
+	padding: 8px;
+	margin-top: 8px;
+	margin-right:8px;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	font-family: Verdana;
+	font-size: 15px;
+	background-image: url("img/ukflag.jpg");
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;
+}
+.header-right a:hover{
+	background-color: #5ac5b4;
+	color: white;
+}
+.header-right{
+	margin: 10px;
+	float:left;
+}
+
+
+.main{
+	background-image: linear-gradient(#6aefd9,#9df3e459, #5ac5b4);
+	background-size: 100% 100%;
+	background-repeat: none;
+	width: 100%;
+	text-align: center;
+	padding: 15px;
+}
+#logo{
+	background-image: url("img/AdShell-logo-fixed.png");
+	background-size: 100% 100%;
+	width: 250px;
+	height: 250px;
+	overflow: auto;
+	margin-left: 39%;
+}
+#minilogo{
+	float: left;
+	padding: 8px;
+	margin-top: 5px;
+	margin-left:8px;
+	background-image: url("img/AdShell-logo-fixed.png");
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;
+}
+#companyName, #companyPhrase{
+	text-align: center;
+
+}
+#companyName{
+	color: green;
+	font-size: 60px;
+	font-weight: bold;
+
+}
+#companyPhrase{
+	font-size: 30px;
+	font-style: italic;
+}
+.down-arrow{
+	width: 50px;
+	height: 50px;
+	background-image: url("img/down-arrow.png");
+	background-size: 100% 100%;
+	position: relative;
+	margin-top: 50px;
+	left: 48.5%;
+	cursor: pointer;
+}
+.down-arrow:hover{
+	background-image: url("img/down-arrow2.png");
+}
+
+.about-field{
+	padding: 20px;
+	background-image: linear-gradient(#5ac5b4, #b4e4dcf7, #2b906b);
+
+	/*background-color: blue;*/
+}
+
+.about-field .row{
+	padding: 15px;
+}
+.about-field h2,p{
+	text-align: left;
+}
+.abt{
+	float:left;
+}
+.abt h2{
+	color: #2f6153;
+	text-shadow: 0 0 15px white;
+}
+.abt p{
+	font-family: Verdana;
+	font-size: 21px;
+	color: white;
+}
+#abtimg{
+	background-image: url("img/secure-element.png");
+	background-size: 100% 100%;
+	margin-top: 25px;
+	width: 70%;
+	height: 300px
+	
+}
+#valTitle{
+	color: #2f6153;
+	text-shadow: 0 0 15px white;
+}
+.val{
+	float:left;
+}
+.val h2{
+	color: #2f6153;
+	text-shadow: 0 0 15px white;
+}
+.val p{
+	font-family: Verdana;
+	font-size: 20px;
+	color: white;
+}
+#valueImg{
+	background-image: url("img/blue-heart.png");
+	background-size: 100% 100%;
+	width: 300px;
+	height: 300px;
+
+	
+}
+
+#teamTitle{
+	color: #2f6153;
+	text-shadow: 0 0 15px white;
+	text-align: center;
+	cursor: pointer;
+	padding: 15px;
+	width: 100%;
+	background-image: linear-gradient(#3c967ecc, #0000)
+}
+#teamTitle:hover{
+	background-image: linear-gradient(#8fcdbd, #0000)
+}
+#theTeam{
+	overflow: hidden;
+}
+.profile{
+	float:left;
+}
+.profile span{
+	margin-left:45px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+.picture{
+	margin-left: 40px;
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	background-color: gray;
+}
+.service-field{
+	padding: 15px;
+	background-image: linear-gradient(#2b906b,#afe2aff7, #09a52a)
+
+}
+.service-field h2{
+	color: #2f6153;
+	text-shadow: 0 0 15px white;
+}
+.service-field #serviceParagraf{
+	text-align: center;
+	color: white;
+	font-family: Verdana;
+}
+.service-field .packName{
+	color: #cbffff;
+	font-size: 35px;
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 0 10px black;
+}
+#serviceParagraf{
+	color: white;
+	font-family: Verdana;
+	font-size: 25px;
+}
+.product{
+	overflow: auto;
+	background-image: linear-gradient(#5ac5b4,#6aa56af7,#2f6153);
+	height: 410px;
+	border-style: solid;
+	border-radius: 8px;
+	border-width: 4px;
+	border-color: #36ff7d;
+}
+.product:hover{
+	box-shadow: 0 0 25px black;
+}
+
+.product ul li{
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 3px;
+	color: white;
+	font-weight: lighter;
+}
+.contact-field{
+	padding: 15px;
+	background-image: linear-gradient(#09a52a,#afe2aff7, green);
+	
+}
+.contact-field h2{
+	color: #2f6153;
+	text-shadow: 0 0 15px white;
+	margin-top: -20px;
+}
+.contact-field .contactArea{
+	border-radius: 5px;
+	padding: 8px;
+	margin-top: 10px;
+}
+.contact-field span{
+	font-family: Verdana;
+	font-size: 20px;
+	color: white;
+}
+#maildir{
+	width: 80%;
+}
+#emaildesc{
+	width: 80%;
+	height: 100px;
+}
+#sendmail{
+	width: 100px;
+	height: 50px;
+	background-image: linear-gradient(#5ac5b4,#2f6153);
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 8px;
+	border-color: darkgreen;
+	cursor: pointer;
+	text-align: center;
+	color: white;
+	font-family: Verdana;
+	font-weight: bold;
+
+}
+#sendmail:hover{
+	background-color: #34a082;
+	border-color: lightblue;
+}
+#fb{
+	width: 40px;
+	height: 40px;
+	background-image: url("img/twitterIcon.png");
+	background-size: 100% 100%;
+	position: relative;
+}
+#twt{
+	width: 40px;
+	height: 40px;
+	background-image: url("img/facebookIcon.png");
+	background-size: 100% 100%;
+}
+
+#map{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/Company-Address.jpg");
+	background-size: 100% 100%;
+	border-style: ridge;
+	border-color: gray;
+	border-width: 5px;
+}
+#foot{
+	overflow: hidden;
+	text-align: left;
+	display: block;
+	padding: 10px;
+	background-color: #2f6153;
+	height: 100%;
+	
+	
+}
+#foot a, a:link, a:hover{
+	color: white;
+}
+
+.feet{
+	float:right;
+	padding-left: 10px;
+}

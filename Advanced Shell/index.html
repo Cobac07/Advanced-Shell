@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head lang="Es-es">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="icon" href="img/ASfaviconFixed.png"/>
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<title>Advanced Shell</title>
+	
+</head>
+<body>
+	<style type="text/css">
+		.lang-es-active{
+	float: right;
+	cursor: pointer;
+	text-align: center;
+	padding: 8px;
+	margin-top: 8px;
+	margin-right:8px;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	font-family: Verdana;
+	font-size: 15px;
+	background-image: url("img/spainflag.jpg");
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;
+}
+.lang-es-active:hover{
+	background-image: url("img/uk-spain.jpg");
+}
+	</style>
+<div class="header">
+		<div id="minilogo" class="d-xs-block d-sm-none d-md-none d-lg-none"></div>
+		<a href="index.html" class="logo">Advanced Shell</a>
+		<div class="header-right d-none d-sm-block">
+			<a id="homebtn" href="#home">Inicio</a>
+			<a id="aboutbtn" href="#about">Sobre Nosotros</a>
+			<a id="servicebtn" href="#services">Servicios</a>
+			<a id="contactbtn" href="#contact">Contacto</a>
+			
+		</div>
+		<div onclick="changeLang()" id="lang" class="lang-es-active"></div>
+	</div>
+<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		
+		<div id="home" class="main">
+			<br><br><br><br><br><br>
+		<div class="front d-none d-md-block" id="logo"></div>
+		<h1 class="front" id="companyName">Advanced Shell</h1>
+		<p id="companyPhrase">Mejores soluciones para las Mejores compañías</p>
+		<a href="#about"><div class="down-arrow d-none d-sm-block"></div></a>
+		<div class="d-none d-md-block">
+			<br><br><br><br><br><br><br><br><br><br>
+		</div>
+		</div>
+	</div>
+
+</div>
+	<div id="about" class="about-field">
+		
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-10 col-xs-12">
+				<div class="abt" id="abtext">
+					<br><br>
+					<h2>¿Qué es Advanced Shell?</h2>
+					<p>Advanced Shell es una empresa de ciberseguridad formada por analistas de seguridad informática, expertos en ciberseguridad y hacking ético, con la finalidad de ofrecer asesoramiento tecnológico especializado y protección a organismos y empresas frente a ataques informáticos y al espionaje industrial.
+Advanced Shell es una empresa de ciberseguridad con amplia experiencia en ofrecer servicios de auditoría, consultoría y formación en ciberseguridad para ayudar al éxito de su empresa en internet.
+</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
+				<div class="abt" id="abtimg"></div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-2 col-xs-12">
+				<h2 id="valTitle">Nuestros valores</h2>
+				<div class="val" id="valImg">
+					
+					<br><div id="valueImg"></div>
+				</div>
+			</div>
+
+			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+				<div class="val" id="valText">
+					<br><br>
+					<h2 id="missionTitle">Misión</h2>
+					<p id="missionDesc">Ofrecer un conjunto de servicios  de ciberseguridad estratégicos a empresas encaminados a la protección de las amenazas derivadas del uso de las tecnologías de la información. </p>
+					<br>
+					<h2 id="visionTitle">Visión</h2>
+					<p id="visionDesc">Servir cada vez a un mayor número de empresas u organismos, al ofrecer la mejor experiencia de compra para el cliente sobre el desarrollo de servicios de inteligencia, vigilancia, investigación y monitorización de información en internet.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div clas="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<br><br><h2 id="teamTitle">Conoce al Equipo</h2>
+				<div id="theTeam">
+					<div class="profile">
+						<div class="picture" style="background-image: url('p-pictures/profile-Val.jpg'); background-size: 100% 100%;"></div>
+						<span>Valentina L.</span>
+					</div>
+					<div class="profile">
+						<div class="picture" style="background-image: url('p-pictures/profile-Alba.jpg'); background-size: 100% 100%;"></div>
+						<span>Alba R.</span>
+					</div>
+					<div class="profile">
+						<div class="picture" style="background-image: url('p-pictures/profile-Angel.jpg'); background-size: 100% 100%;"></div>
+						<span>Angel A.</span>
+					</div>
+					<div class="profile">
+						<div class="picture" style="background-image: url('p-pictures/profile-Daniel.jpg'); background-size: 100% 100%;"></div>
+						<span>Daniel S.</span>
+					</div>
+					<div class="profile">
+						<div class="picture" style="background-image: url('p-pictures/profile-Francisco.jpg'); background-size: 100% 100%;"></div>
+						<span>Francisco R.</span>
+					</div>
+					<div class="profile">
+						<div class="picture" style="background-image: url('p-pictures/profile-Jose.jpg'); background-size: 100% 100%;"></div>
+						<span>José D.</span>
+					</div>
+					<div class="profile">
+						<div class="picture" style="background-image: url('p-pictures/profile-Juan.jpg'); background-size: 100% 100%;"></div>
+						<span>Juan C.</span>
+					</div>
+					<div class="profile">
+						<div class="picture" style="background-image: url('p-pictures/profile-Mel.jpg'); background-size: 100% 100%;"></div>
+						<span>Melanie B.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br><br>
+	</div>
+
+	<div id="services" class="service-field">
+		<br><br>
+		<h2>Nuestros servicios</h2>
+		<p id="serviceParagraf">Advanced Shell enfoca sus servicios a empresas que quieren proteger de la mejor manera sus datos e información. Ofrecemos tres niveles de servicios que nuestros clientes podrán elegir de acuerdo a sus necesidades. <br><br> Contamos con los siguientes planes:
+		</p>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-10 col-xs-12">
+				<p class="packName">Normal</p>
+				<div class="product">
+					<ul>
+						<li>Asesoramiento</li>
+						<li>Auditoria de seguridad</li>
+						<li>Auditoria web</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-10 col-xs-12">
+				<p class="packName">Advanced</p>
+				<div class="product">
+					<ul>
+						<li>Capacitación a personal</li>
+						<li>Auditoria de seguridad</li>
+						<li>Auditoria web</li>
+						<li>Auditoria de aplicaciones móviles</li>
+						<li>actualizacion de sistemas de seguridad usando software personalizado</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-10 col-xs-12">
+				<p class="packName">Premium Shell</p>
+				<div class="product">
+					<ul>
+						<li>Auditoria de seguridad</li>
+						<li>Auditoria web</li>
+						<li>Auditoria de aplicaciones móviles</li>
+						<li>Análisis de Piratería y Monitorización de fraude Online</li>
+						<li>Servicio de ingenieria inversa en software</li>
+					</ul>
+				</div>
+				<br><br><br>
+			</div>
+
+		</div>
+		<br>
+		<br>
+		
+	</div>
+	<div id="contact" class="contact-field">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+				<h2>Contáctanos</h2>
+				<input class="contactArea" id="maildir" type="email" name="email" placeholder="Correo de contacto"/><br>
+				<textarea class="contactArea" id="emaildesc" placeholder="Descripción"></textarea>
+				<div id="sendmail">Enviar</div><br><br>
+				<div id="twt"></div><a href="#">/AdvancedShell</a><br><br>
+				<div id="fb"></div><a href="#">@advshell</a>
+			</div>
+			<div class="col-lg-6 col-md-8 col-sm-8 col-xs-12">
+				<span>Nuestra Dirección: Comandancia Sector Centro, Puente Hierro, Avenida Sur 5, Caracas 1014, Distrito Capital</span>
+				<div id="map"></div>
+			</div>
+		</div>
+		
+	</div>
+
+<div id="foot">
+	<a class="feet" href="#">Terminos y Condiciones</a>
+	<a class="feet" href="#">Copyright</a>
+	<a class="feet" href="#">Politica de privacidad</a>
+
+</div>
+	
+<script type="text/javascript">
+	function changeLang(){
+		window.location.href ="advEn.html"
+	}
+</script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
